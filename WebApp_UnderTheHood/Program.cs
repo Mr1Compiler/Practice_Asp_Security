@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Authorization;
+using WebApp_UnderTheHood.Authorization;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,6 +16,15 @@ builder.Services.AddAuthorization(option =>
     option.AddPolicy("AdminOnly", policy => policy.RequireClaim("Admin"));
     option.AddPolicy("MustBelongToHRDepartembnt", policy => policy.RequireClaim("Department", "HR"));
 });
+
+
+builder.Services.AddSingleton<IAuthorizationHandler, HRManagerProbationRequirementHandler>();
+
+builder.Services.AddHttpClient("OurWebAPI", client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5051/");
+});
+
 
 var app = builder.Build();
 

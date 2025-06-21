@@ -1,18 +1,22 @@
+using System.Diagnostics.CodeAnalysis;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using WebApp_UnderTheHood.Authorization.DTO;
 
 namespace WebApp_UnderTheHood.Pages;
 
-public class HRManager : PageModel
+public class HrManager : PageModel
 {
-    private readonly IHttpClientFactory httpClientFactory;
-    
-    public HRManager(IHttpClientFactory httpClientFactory)
+    private readonly IHttpClientFactory _httpClientFactory;
+    [BindProperty] public List<WeatherForecastDTO> WeatherForecastItems { get; set; } = new List<WeatherForecastDTO>();
+    public HrManager(IHttpClientFactory httpClientFactory)
     {
-        this.httpClientFactory = httpClientFactory;
+        this._httpClientFactory = httpClientFactory;
     }
+
     public async Task OnGet()
     {
-        var httpclient = httpClientFactory.CreateClient("OurWebAPI");
-        httpclient.GetFromJsonAsync<>
+        var httpclient = _httpClientFactory.CreateClient("OurWebAPI");
+        WeatherForecastItems = await httpclient.GetFromJsonAsync<List<WeatherForecastDTO>>("WeatherForecast") ?? new List<WeatherForecastDTO>();
     }
 }

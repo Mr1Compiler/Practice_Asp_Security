@@ -1,0 +1,33 @@
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/appsettings.Development.json
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/appsettings.json
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Web API
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Web API.deps.json
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Web API.runtimeconfig.json
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Web API.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Web API.pdb
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.csproj.AssemblyReference.cache
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.AssemblyInfoInputs.cache
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.AssemblyInfo.cs
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.csproj.CoreCompileInputs.cache
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.MvcApplicationPartsAssemblyInfo.cs
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.MvcApplicationPartsAssemblyInfo.cache
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.sourcelink.json
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/staticwebassets.build.json
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/staticwebassets.development.json
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/staticwebassets/msbuild.Web API.Microsoft.AspNetCore.StaticWebAssets.props
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/staticwebassets/msbuild.build.Web API.props
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Web API.props
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Web API.props
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/staticwebassets.pack.json
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/scopedcss/bundle/Web API.styles.css
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.csproj.Up2Date
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/refint/Web API.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.pdb
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.genruntimeconfig.cache
+/mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/ref/Web API.dll

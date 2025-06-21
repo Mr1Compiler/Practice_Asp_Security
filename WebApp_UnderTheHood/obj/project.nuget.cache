@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "iePjkulwb80=",
+  "dgSpecHash": "LqgZymu4Oq0=",
   "success": true,
   "projectFilePath": "/mnt/hdd/udemy/courses/auth_course/App/WebApp_UnderTheHood/WebApp_UnderTheHood.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/mr1compiler/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.3.0/microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "/home/mr1compiler/.nuget/packages/microsoft.aspnetcore.http.extensions/2.3.0/microsoft.aspnetcore.http.extensions.2.3.0.nupkg.sha512",
+    "/home/mr1compiler/.nuget/packages/microsoft.aspnetcore.http.features/2.3.0/microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "/home/mr1compiler/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/home/mr1compiler/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/mr1compiler/.nuget/packages/microsoft.net.http.headers/2.3.0/microsoft.net.http.headers.2.3.0.nupkg.sha512",
+    "/home/mr1compiler/.nuget/packages/system.buffers/4.6.0/system.buffers.4.6.0.nupkg.sha512",
+    "/home/mr1compiler/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
