@@ -59,3 +59,6 @@
 /mnt/hdd/udemy/courses/auth_course/App/WebApp_UnderTheHood/obj/Debug/net8.0/WebApp_UnderTheHood.pdb
 /mnt/hdd/udemy/courses/auth_course/App/WebApp_UnderTheHood/obj/Debug/net8.0/WebApp_UnderTheHood.genruntimeconfig.cache
 /mnt/hdd/udemy/courses/auth_course/App/WebApp_UnderTheHood/obj/Debug/net8.0/ref/WebApp_UnderTheHood.dll
+/mnt/hdd/udemy/courses/auth_course/App/WebApp_UnderTheHood/bin/Debug/net8.0/Newtonsoft.Json.dll
+/mnt/hdd/udemy/courses/auth_course/App/WebApp_UnderTheHood/obj/Debug/net8.0/WebApp_UnderTheHood.csproj.AssemblyReference.cache
+/mnt/hdd/udemy/courses/auth_course/App/WebApp_UnderTheHood/obj/Debug/net8.0/WebApp_U.56FC7BE1.Up2Date

@@ -31,3 +31,12 @@
 /mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.pdb
 /mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/Web API.genruntimeconfig.cache
 /mnt/hdd/udemy/courses/auth_course/App/Web API/obj/Debug/net8.0/ref/Web API.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/List.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/mnt/hdd/udemy/courses/auth_course/App/Web API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
