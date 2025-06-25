@@ -19,22 +19,43 @@ public class HrManager : PageModel
         this._httpClientFactory = httpClientFactory;
     }
 
+    // We should work here now
     public async Task OnGet()
     {
+        // get token from the session
+        JwtToken token = new JwtToken();
+        var strTokenObj = HttpContext.Session.GetString("access_token");
+
+        if (string.IsNullOrEmpty(strTokenObj))
+        {
+            token = await Authenticate();
+        }
+        else
+        {
+            token = JsonConvert.DeserializeObject<JwtToken>(strTokenObj) ?? new JwtToken();
+        }
+
+        if (token == null ||
+            string.IsNullOrWhiteSpace(token.AccessToken) ||
+            token.ExpiresAt <= DateTime.UtcNow)
+        {
+            token = await Authenticate();
+        }
+
         var httpclient = _httpClientFactory.CreateClient("OurWebAPI");
-        // Post to authentication endpoint to generate jwtToken and send it back to the endopint that require jwt auth
-        var res = await httpclient.PostAsJsonAsync("auth", new Credentials { Username = "admin", Password = "password" });
-        //== Loggning ==
-        Console.WriteLine("jwtToken is : {0}", res);
-
-        res.EnsureSuccessStatusCode();
-        Console.WriteLine(res.EnsureSuccessStatusCode());
-
-        string strJwt = await res.Content.ReadAsStringAsync();
-        var token = JsonConvert.DeserializeObject<JwtToken>(strJwt);
-
-
         httpclient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token?.AccessToken ?? string.Empty);
         WeatherForecastItems = await httpclient.GetFromJsonAsync<List<WeatherForecastDTO>>("WeatherForecast") ?? new List<WeatherForecastDTO>();
+    }
+
+    private async Task<JwtToken> Authenticate()
+    {
+        var httpclient = _httpClientFactory.CreateClient("OurWebAPI");
+        var res = await httpclient.PostAsJsonAsync("auth",
+            new Credentials { Username = "admin", Password = "password" });
+        res.EnsureSuccessStatusCode();
+        string strJwt = await res.Content.ReadAsStringAsync();
+
+        HttpContext.Session.SetString("access_token", strJwt);
+        return JsonConvert.DeserializeObject<JwtToken>(strJwt)?? new JwtToken();    
     }
 }
